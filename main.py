@@ -7,7 +7,7 @@ from sklearn.svm import SVC
 
 
 import pandas as pd
-df = pd.read_csv("C:/Users/mirya/Downloads/datasets_we/iris_dataset.csv")
+df = pd.read_csv("iris_dataset.csv")
 data = df.values
 X = data[:,0:4]
 Y = data[:,4]
